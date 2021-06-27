@@ -179,6 +179,15 @@
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "Kirby",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kirby"
     }
   ],
   "variable_elements": [],
@@ -189,6 +198,7 @@
       "entity.test_mod.stop": "Stop",
       "item.test_mod.a_armor_helmet": "A Helmet",
       "item.test_mod.cool_helmet": "Cool Helmet",
+      "block.test_mod.kirby": "Kirby",
       "block.test_mod.pooop": "Pooop",
       "item.test_mod.cool_leggings": "Cool Leggings",
       "key.test_mod.xp": "Xp",

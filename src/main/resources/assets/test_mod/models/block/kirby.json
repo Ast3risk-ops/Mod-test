@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test_mod:blocks/kirb",
+    "up": "test_mod:blocks/kirb",
+    "north": "test_mod:blocks/kirb",
+    "east": "test_mod:blocks/kirb",
+    "south": "test_mod:blocks/kirb",
+    "west": "test_mod:blocks/kirb",
+    "particle": "test_mod:blocks/kirb"
+  }
+}
