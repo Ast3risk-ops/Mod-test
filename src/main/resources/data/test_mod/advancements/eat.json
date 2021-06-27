@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "test_mod:textures/kirbo.png",
+    "icon": {
+      "item": "test_mod:chicken"
+    },
+    "title": {
+      "translate": "advancements.eat.title"
+    },
+    "description": {
+      "translate": "advancements.eat.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "test_mod:chicken"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 35
+  }
+}

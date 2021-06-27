@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.BEACON"
+      },
+      {
+        "value": "Blocks.BEACON"
+      },
+      {
+        "value": "Blocks.BEACON"
+      },
+      {
+        "value": "Blocks.BEACON"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BEACON"
+      },
+      {
+        "value": "Blocks.BEACON"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BEACON"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AArmor.legs"
+    },
+    "name": "a_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

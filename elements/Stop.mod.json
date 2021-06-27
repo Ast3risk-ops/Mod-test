@@ -1,0 +1,131 @@
+{
+  "_fv": 18,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Stop",
+    "mobLabel": "Stop Right Now",
+    "mobModelName": "Biped",
+    "mobModelTexture": "kirby.png",
+    "mobModelGlowTexture": "kirb.png",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": true,
+    "bossBarColor": "GREEN",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "Blocks.GOLDEN_RAIL"
+    },
+    "equipmentOffHand": {
+      "value": "Blocks.SAPLING#0"
+    },
+    "equipmentHelmet": {
+      "value": "Blocks.LOG"
+    },
+    "equipmentBody": {
+      "value": "Blocks.STRIPPED_WARPED_HYPHAE"
+    },
+    "equipmentLeggings": {
+      "value": "Blocks.LOG2"
+    },
+    "equipmentBoots": {
+      "value": "Blocks.LEAVES#0"
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 30,
+    "attackKnockback": 3.9,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.5,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "health": 125,
+    "xpAmount": 0,
+    "waterMob": true,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 43,
+    "inventoryStackSize": 100,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": true,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "block.anvil.hit"
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 1.000000001490116,
+    "particleAmount": 10,
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "Items.NETHERITE_SWORD"
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "mountains"
+      }
+    ],
+    "spawnInDungeons": true
+  }
+}

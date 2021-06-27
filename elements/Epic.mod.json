@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc",
+    "name": "Epic",
+    "description": "Cool Music",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "block.ancient_debris.break"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

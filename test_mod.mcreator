@@ -1,0 +1,231 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Epic",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epic"
+    },
+    {
+      "name": "AArmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_armor_helmet_recipe"
+    },
+    {
+      "name": "AArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_armor_body_recipe"
+    },
+    {
+      "name": "AArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_armor_leggings_recipe"
+    },
+    {
+      "name": "AArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_armor_boots_recipe"
+    },
+    {
+      "name": "Cool",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cool",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Kirb",
+      "type": "painting",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kirb"
+    },
+    {
+      "name": "Light",
+      "type": "fuel",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light"
+    },
+    {
+      "name": "Pooop",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pooop"
+    },
+    {
+      "name": "What",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "what",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Stop",
+      "type": "mob",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stop"
+    },
+    {
+      "name": "Chicken",
+      "type": "food",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chicken"
+    },
+    {
+      "name": "Eat",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eat"
+    },
+    {
+      "name": "XpOnKeyPressed",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xp",
+      "type": "keybind",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp"
+    },
+    {
+      "name": "Rich",
+      "type": "dimension",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rich",
+      "metadata": {
+        "ep": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.test_mod.cool_chestplate": "Cool Body",
+      "entity.test_mod.stop": "Stop",
+      "item.test_mod.a_armor_helmet": "A Helmet",
+      "item.test_mod.cool_helmet": "Cool Helmet",
+      "block.test_mod.pooop": "Pooop",
+      "item.test_mod.cool_leggings": "Cool Leggings",
+      "key.test_mod.xp": "Xp",
+      "item.test_mod.a_armor_leggings": "A Leggings",
+      "advancements.eat.descr": "Eat Kirby",
+      "item.test_mod.epic": "Epic",
+      "item.test_mod.a_armor_boots": "A Boots",
+      "item.test_mod.rich": "Rich Portal Igniter",
+      "item.test_mod.a_armor_chestplate": "A Chestplate",
+      "item.test_mod.chicken": "Kirby",
+      "item.test_mod.what": "PWhat Portal Igniter",
+      "item.test_mod.stop_spawn_egg": "Stop Spawn Egg",
+      "advancements.eat.title": "Eat",
+      "item.test_mod.cool_boots": "Cool Boots",
+      "item.test_mod.epic.desc": "Cool Music"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "test_mod",
+    "modName": "Test Mod",
+    "version": "1.0.0",
+    "author": "0398313, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.testmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

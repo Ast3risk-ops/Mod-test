@@ -1,0 +1,36 @@
+{
+  "group": "test_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:beacon"
+    },
+    "1": {
+      "item": "minecraft:beacon"
+    },
+    "2": {
+      "item": "minecraft:beacon"
+    },
+    "3": {
+      "item": "minecraft:beacon"
+    },
+    "5": {
+      "item": "minecraft:beacon"
+    },
+    "6": {
+      "item": "minecraft:beacon"
+    },
+    "8": {
+      "item": "minecraft:beacon"
+    }
+  },
+  "result": {
+    "item": "test_mod:a_armor_leggings",
+    "count": 1
+  }
+}

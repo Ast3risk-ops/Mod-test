@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test_mod:blocks/s",
+    "up": "test_mod:blocks/s",
+    "north": "test_mod:blocks/s",
+    "east": "test_mod:blocks/s",
+    "south": "test_mod:blocks/s",
+    "west": "test_mod:blocks/s",
+    "particle": "test_mod:blocks/s"
+  }
+}

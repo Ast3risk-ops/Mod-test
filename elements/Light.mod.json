@@ -1,0 +1,10 @@
+{
+  "_fv": 18,
+  "_type": "fuel",
+  "definition": {
+    "power": 1807,
+    "block": {
+      "value": "CUSTOM:AArmor.body"
+    }
+  }
+}

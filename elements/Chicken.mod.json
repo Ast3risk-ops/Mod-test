@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "kirbyfood",
+    "customModelName": "Normal",
+    "name": "Kirby",
+    "rarity": "EPIC",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 101,
+    "saturation": 12.2,
+    "eatingSpeed": 101,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}
