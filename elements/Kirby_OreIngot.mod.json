@@ -8,7 +8,7 @@
     "name": "Kirby_Ore",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Customitems"
     },
     "stackSize": 64,
     "enchantability": 0,
