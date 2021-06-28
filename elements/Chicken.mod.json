@@ -12,9 +12,9 @@
       "value": "CUSTOM:Customitems"
     },
     "stackSize": 64,
-    "nutritionalValue": 101,
-    "saturation": 12.2,
-    "eatingSpeed": 101,
+    "nutritionalValue": 210,
+    "saturation": 43.1,
+    "eatingSpeed": 1,
     "resultItem": {
       "value": ""
     },

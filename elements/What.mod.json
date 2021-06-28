@@ -39,7 +39,7 @@
     },
     "igniterName": "PWhat Portal Igniter",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Customitems"
     },
     "texture": "l",
     "portalTexture": "s",

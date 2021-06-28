@@ -29,13 +29,13 @@ public class ChickenItem extends TestModModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(CustomitemsItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC)
-					.food((new Food.Builder()).hunger(101).saturation(12.2f).setAlwaysEdible().meat().build()));
+					.food((new Food.Builder()).hunger(210).saturation(43.1f).setAlwaysEdible().meat().build()));
 			setRegistryName("chicken");
 		}
 
 		@Override
 		public int getUseDuration(ItemStack stack) {
-			return 101;
+			return 1;
 		}
 
 		@Override
