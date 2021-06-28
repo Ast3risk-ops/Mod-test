@@ -8,7 +8,10 @@ version="1.0.0"
 displayName="Test Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="0398313, MCreator"
+authors="SpaceDude609 with MCreator"
+description='''
+Adds stuff. Mostly Kirby related
+'''
 
 [[dependencies.test_mod]]
     modId="minecraft"

@@ -218,34 +218,91 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stuff"
+    },
+    {
+      "name": "Kirby_OreIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kirby_ore_ingot"
+    },
+    {
+      "name": "Kirby_OreOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kirby_ore_ore"
+    },
+    {
+      "name": "Kirby_OreBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kirby_ore_block"
+    },
+    {
+      "name": "Kirby_OreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kirby_ore_ore_block_recipe"
+    },
+    {
+      "name": "Kirby_OreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kirby_ore_block_ore_recipe"
+    },
+    {
+      "name": "Kirby_OreOreSmelting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kirby_ore_ore_smelting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.test_mod.cool_chestplate": "Cool Body",
       "entity.test_mod.stop": "Stop",
       "item.test_mod.a_armor_helmet": "A Helmet",
       "item.test_mod.cool_helmet": "Cool Helmet",
       "block.test_mod.kirby": "Kirby",
       "block.test_mod.pooop": "Pooop",
-      "item.test_mod.cool_leggings": "Cool Leggings",
       "key.test_mod.xp": "Xp",
       "item.test_mod.a_armor_leggings": "A Leggings",
+      "item.test_mod.a_armor_chestplate": "A Chestplate",
+      "item.test_mod.cool_boots": "Cool Boots",
+      "item.test_mod.epic.desc": "Cool Music",
+      "itemGroup.tabcustomitems": "Custom_items",
+      "item.test_mod.cool_chestplate": "Cool Body",
+      "item.test_mod.cool_leggings": "Cool Leggings",
       "advancements.eat.descr": "Eat Kirby",
       "item.test_mod.epic": "Epic",
       "item.test_mod.a_armor_boots": "A Boots",
       "item.test_mod.rich": "Rich Portal Igniter",
-      "item.test_mod.a_armor_chestplate": "A Chestplate",
       "item.test_mod.chicken": "Kirby",
       "item.test_mod.what": "PWhat Portal Igniter",
       "item.test_mod.stop_spawn_egg": "Stop Spawn Egg",
       "advancements.eat.title": "Eat",
-      "item.test_mod.cool_boots": "Cool Boots",
-      "item.test_mod.epic.desc": "Cool Music",
-      "item.test_mod.kirbydimension": "Kirbydimension app",
-      "itemGroup.tabcustomitems": "Custom_items"
+      "item.test_mod.kirby_ore_ingot": "Kirby_Ore",
+      "block.test_mod.kirby_ore_block": "Block of Kirby_Ore",
+      "block.test_mod.kirby_ore_ore": "Kirby_Ore Ore",
+      "item.test_mod.kirbydimension": "Kirbydimension app"
     }
   },
   "foldersRoot": {
@@ -256,7 +313,8 @@
     "modid": "test_mod",
     "modName": "Test Mod",
     "version": "1.0.0",
-    "author": "0398313, MCreator",
+    "description": "Adds stuff. Mostly Kirby related",
+    "author": "SpaceDude609 with MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -266,6 +324,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.testmod",
     "lockBaseModFiles": false
   },
