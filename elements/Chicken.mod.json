@@ -9,7 +9,7 @@
     "rarity": "EPIC",
     "specialInfo": [],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:Customitems"
     },
     "stackSize": 64,
     "nutritionalValue": 101,

@@ -8,10 +8,10 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
+import net.mcreator.testmod.itemgroup.CustomitemsItemGroup;
 import net.mcreator.testmod.TestModModElements;
 
 @TestModModElements.ModElement.Tag
@@ -28,7 +28,7 @@ public class ChickenItem extends TestModModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.EPIC)
+			super(new Item.Properties().group(CustomitemsItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC)
 					.food((new Food.Builder()).hunger(101).saturation(12.2f).setAlwaysEdible().meat().build()));
 			setRegistryName("chicken");
 		}
