@@ -109,7 +109,8 @@ public class KirbyBlock extends TestModModElements.ModElement {
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 23.5f).setLightLevel(s -> 15)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().slipperiness(0.1f).speedFactor(2f).jumpFactor(2f));
+					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool().speedFactor(2f).jumpFactor(2f)
+					.setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
 			setRegistryName("kirby");
 		}

@@ -11,7 +11,7 @@
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "kirbyfood",
     "particleTexture": "kirb",
@@ -70,7 +70,7 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.1,
+    "slipperiness": 0.6,
     "speedFactor": 2.0,
     "jumpFactor": 2.0,
     "reactionToPushing": "NORMAL",
@@ -96,7 +96,7 @@
     },
     "luminance": 15,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
