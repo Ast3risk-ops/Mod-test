@@ -2,9 +2,9 @@
   "_fv": 18,
   "_type": "fuel",
   "definition": {
-    "power": 1807,
+    "power": 2002,
     "block": {
-      "value": "CUSTOM:AArmor.body"
+      "value": "CUSTOM:Kirby"
     }
   }
 }

@@ -7,7 +7,7 @@ import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.item.ItemStack;
 
-import net.mcreator.testmod.item.AArmorItem;
+import net.mcreator.testmod.block.KirbyBlock;
 import net.mcreator.testmod.TestModModElements;
 
 @TestModModElements.ModElement.Tag
@@ -19,7 +19,7 @@ public class LightFuel extends TestModModElements.ModElement {
 
 	@SubscribeEvent
 	public void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
-		if (event.getItemStack().getItem() == new ItemStack(AArmorItem.body, (int) (1)).getItem())
-			event.setBurnTime(1807);
+		if (event.getItemStack().getItem() == new ItemStack(KirbyBlock.block, (int) (1)).getItem())
+			event.setBurnTime(2002);
 	}
 }

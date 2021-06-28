@@ -225,7 +225,7 @@ public class KirbydimensionDimension extends TestModModElements.ModElement {
 
 	public static class CustomPortalSize {
 		private static final AbstractBlock.IPositionPredicate POSITION_PREDICATE = (state, blockReader, pos) -> {
-			return state.getBlock() == KirbyBlock.block.getDefaultState().getBlock();
+			return state.getBlock() == Blocks.DIAMOND_BLOCK.getDefaultState().getBlock();
 		};
 		private final IWorld world;
 		private final Direction.Axis axis;
@@ -496,7 +496,7 @@ public class KirbydimensionDimension extends TestModModElements.ModElement {
 					for (int k2 = 0; k2 < 2; ++k2) {
 						for (int i3 = -1; i3 < 3; ++i3) {
 							BlockState blockstate1 = i3 < 0
-									? KirbyBlock.block.getDefaultState().getBlock().getDefaultState()
+									? Blocks.DIAMOND_BLOCK.getDefaultState().getBlock().getDefaultState()
 									: Blocks.AIR.getDefaultState();
 							blockpos$mutable.setAndOffset(blockpos, k2 * direction.getXOffset() + l1 * direction1.getXOffset(), i3,
 									k2 * direction.getZOffset() + l1 * direction1.getZOffset());
@@ -509,7 +509,7 @@ public class KirbydimensionDimension extends TestModModElements.ModElement {
 				for (int i2 = -1; i2 < 4; ++i2) {
 					if (k1 == -1 || k1 == 2 || i2 == -1 || i2 == 3) {
 						blockpos$mutable.setAndOffset(blockpos, k1 * direction.getXOffset(), i2, k1 * direction.getZOffset());
-						this.world.setBlockState(blockpos$mutable, KirbyBlock.block.getDefaultState().getBlock().getDefaultState(), 3);
+						this.world.setBlockState(blockpos$mutable, Blocks.DIAMOND_BLOCK.getDefaultState().getBlock().getDefaultState(), 3);
 					}
 				}
 			}
