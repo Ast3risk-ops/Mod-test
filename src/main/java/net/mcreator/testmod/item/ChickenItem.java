@@ -35,7 +35,7 @@ public class ChickenItem extends TestModModElements.ModElement {
 
 		@Override
 		public int getUseDuration(ItemStack stack) {
-			return 1;
+			return 40;
 		}
 
 		@Override
