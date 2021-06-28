@@ -332,6 +332,12 @@ public class StopEntity extends TestModModElements.ModElement {
 		}
 
 		@Override
+		protected void arrowHit(LivingEntity livingEntity) {
+			super.arrowHit(livingEntity);
+			livingEntity.setArrowCountInEntity(livingEntity.getArrowCountInEntity() - 1);
+		}
+
+		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
 			return new ItemStack(Items.NETHERITE_SWORD, (int) (1));
